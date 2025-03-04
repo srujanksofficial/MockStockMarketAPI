@@ -1,8 +1,10 @@
 from flask import Flask, jsonify, request
 import random
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # List of sample stocks
 stocks = {
