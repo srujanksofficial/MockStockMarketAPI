@@ -19,7 +19,8 @@ stocks = {
     "ORCL":	"Oracle Corporation",
     "NFLX":	"Netflix, Inc.",
     "CSCO":	"Cisco Systems, Inc.",
-    "TM": "Toyota Motor Corporation"
+    "TM": "Toyota Motor Corporation",
+    "IBM": "IBM Technologies, Inc."
 }
 
 @app.route('/api/stocks', methods=['GET'])
