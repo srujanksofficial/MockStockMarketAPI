@@ -12,7 +12,14 @@ stocks = {
     "GOOGL": "Alphabet Inc.",
     "MSFT": "Microsoft Corporation",
     "AMZN": "Amazon.com, Inc.",
-    "TSLA": "Tesla, Inc."
+    "TSLA": "Tesla, Inc.",
+    "NVDA":	"NVIDIA Corporation",
+    "WMT": "Walmart Inc.",
+    "JPM": "JPMorgan Chase & Co.",
+    "ORCL":	"Oracle Corporation",
+    "NFLX":	"Netflix, Inc.",
+    "CSCO":	"Cisco Systems, Inc.",
+    "TM": "Toyota Motor Corporation"
 }
 
 @app.route('/api/stocks', methods=['GET'])
